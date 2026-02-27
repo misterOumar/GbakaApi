@@ -1,0 +1,17 @@
+/Users/monelcocou/Documents/MyProjects/GbakaApi/src/main/java/fr/istic/taa/jaxrs/domain/enums/FuelType.java
+/Users/monelcocou/Documents/MyProjects/GbakaApi/src/main/java/fr/istic/taa/jaxrs/domain/Vehicle.java
+/Users/monelcocou/Documents/MyProjects/GbakaApi/src/main/java/fr/istic/taa/jaxrs/domain/User.java
+/Users/monelcocou/Documents/MyProjects/GbakaApi/src/main/java/fr/istic/taa/jaxrs/domain/Driver.java
+/Users/monelcocou/Documents/MyProjects/GbakaApi/src/main/java/fr/istic/taa/jaxrs/dao/generic/IGenericDao.java
+/Users/monelcocou/Documents/MyProjects/GbakaApi/src/main/java/fr/istic/taa/jaxrs/rest/PetResource.java
+/Users/monelcocou/Documents/MyProjects/GbakaApi/src/main/java/fr/istic/taa/jaxrs/TestApplication.java
+/Users/monelcocou/Documents/MyProjects/GbakaApi/src/main/java/fr/istic/taa/jaxrs/domain/enums/BookingStatus.java
+/Users/monelcocou/Documents/MyProjects/GbakaApi/src/main/java/fr/istic/taa/jaxrs/domain/Trip.java
+/Users/monelcocou/Documents/MyProjects/GbakaApi/src/main/java/fr/istic/taa/jaxrs/dao/generic/EntityManagerHelper.java
+/Users/monelcocou/Documents/MyProjects/GbakaApi/src/main/java/fr/istic/taa/jaxrs/RestServer.java
+/Users/monelcocou/Documents/MyProjects/GbakaApi/src/main/java/fr/istic/taa/jaxrs/domain/Pet.java
+/Users/monelcocou/Documents/MyProjects/GbakaApi/src/main/java/fr/istic/taa/jaxrs/domain/enums/TripStatus.java
+/Users/monelcocou/Documents/MyProjects/GbakaApi/src/main/java/fr/istic/taa/jaxrs/domain/enums/PaymentMethod.java
+/Users/monelcocou/Documents/MyProjects/GbakaApi/src/main/java/fr/istic/taa/jaxrs/dao/generic/AbstractJpaDao.java
+/Users/monelcocou/Documents/MyProjects/GbakaApi/src/main/java/fr/istic/taa/jaxrs/domain/Booking.java
+/Users/monelcocou/Documents/MyProjects/GbakaApi/src/main/java/fr/istic/taa/jaxrs/domain/Passenger.java

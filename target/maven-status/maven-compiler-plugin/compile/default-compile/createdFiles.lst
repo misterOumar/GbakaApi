@@ -1,0 +1,17 @@
+fr/istic/taa/jaxrs/domain/enums/TripStatus.class
+fr/istic/taa/jaxrs/domain/Pet.class
+fr/istic/taa/jaxrs/domain/Vehicle.class
+fr/istic/taa/jaxrs/RestServer.class
+fr/istic/taa/jaxrs/rest/PetResource.class
+fr/istic/taa/jaxrs/dao/generic/IGenericDao.class
+fr/istic/taa/jaxrs/domain/Trip.class
+fr/istic/taa/jaxrs/domain/enums/FuelType.class
+fr/istic/taa/jaxrs/domain/enums/PaymentMethod.class
+fr/istic/taa/jaxrs/domain/Passenger.class
+fr/istic/taa/jaxrs/TestApplication.class
+fr/istic/taa/jaxrs/dao/generic/AbstractJpaDao.class
+fr/istic/taa/jaxrs/domain/enums/BookingStatus.class
+fr/istic/taa/jaxrs/domain/User.class
+fr/istic/taa/jaxrs/domain/Booking.class
+fr/istic/taa/jaxrs/domain/Driver.class
+fr/istic/taa/jaxrs/dao/generic/EntityManagerHelper.class

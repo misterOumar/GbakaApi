@@ -1,11 +1,13 @@
 package fr.istic.taa.jaxrs.domain;
 
 import jakarta.persistence.*;
+
+import java.io.Serializable;
 import java.time.LocalDate;
 
 @Entity
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
-public abstract class User {
+public abstract class User implements Serializable {
 
     public User() {}
 

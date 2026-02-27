@@ -3,11 +3,12 @@ package fr.istic.taa.jaxrs.domain;
 import fr.istic.taa.jaxrs.domain.enums.TripStatus;
 import jakarta.persistence.*;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.List;
 
 @Entity
-public class Trip {
+public class Trip implements Serializable {
 
     public Trip() {}
 

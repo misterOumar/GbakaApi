@@ -3,8 +3,10 @@ package fr.istic.taa.jaxrs.domain;
 import fr.istic.taa.jaxrs.domain.enums.FuelType;
 import jakarta.persistence.*;
 
+import java.io.Serializable;
+
 @Entity
-public class Vehicle {
+public class Vehicle implements Serializable {
 
     public Vehicle() {}
 

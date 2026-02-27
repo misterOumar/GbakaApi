@@ -3,10 +3,11 @@ package fr.istic.taa.jaxrs.domain;
 import fr.istic.taa.jaxrs.domain.enums.BookingStatus;
 import jakarta.persistence.*;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
 @Entity
-public class Booking {
+public class Booking implements Serializable {
 
     @Id
     @GeneratedValue

@@ -42,7 +42,13 @@
 
 	<persistence-unit name="mysql">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
- 
+		<class>fr.istic.taa.jaxrs.domain.User</class>
+		<class>fr.istic.taa.jaxrs.domain.Driver</class>
+		<class>fr.istic.taa.jaxrs.domain.Passenger</class>
+		<class>fr.istic.taa.jaxrs.domain.Vehicle</class>
+		<class>fr.istic.taa.jaxrs.domain.Trip</class>
+		<class>fr.istic.taa.jaxrs.domain.Booking</class>
+
 		<properties>
 			<property name="jakarta.persistence.jdbc.driver"
 				value="com.mysql.cj.jdbc.Driver" />

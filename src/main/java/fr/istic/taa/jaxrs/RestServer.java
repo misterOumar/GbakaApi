@@ -1,5 +1,6 @@
 package fr.istic.taa.jaxrs;
 
+import fr.istic.taa.jaxrs.dao.generic.EntityManagerHelper;
 import io.undertow.Undertow;
 import org.jboss.resteasy.plugins.server.undertow.UndertowJaxrsServer;
 
@@ -15,6 +16,7 @@ public class RestServer {
 
     public static void main( String[] args ) {
 
+        EntityManagerHelper.getEntityManager();
         UndertowJaxrsServer ut = new UndertowJaxrsServer();
 
         TestApplication ta = new TestApplication();

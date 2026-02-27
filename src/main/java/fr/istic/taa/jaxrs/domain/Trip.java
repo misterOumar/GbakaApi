@@ -8,6 +8,10 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 @Entity
+@NamedQuery(
+        name = "Trip.findByDate",
+        query = "SELECT t FROM Trip t WHERE t.departureTime >= :date"
+)
 public class Trip implements Serializable {
 
     public Trip() {}

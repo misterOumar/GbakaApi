@@ -22,6 +22,9 @@ public abstract class User implements Serializable {
     private LocalDate birthDate;
     private boolean isActive;
 
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public Long getId() {
         return id;

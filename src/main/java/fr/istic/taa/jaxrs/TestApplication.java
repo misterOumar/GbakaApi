@@ -40,6 +40,7 @@ public class TestApplication extends Application {
         clazzes.add(PassengerResource.class);
         clazzes.add(BookingResource.class);
         clazzes.add(TripResource.class);
+        clazzes.add(SwaggerResource.class);
 //        clazzes.add(AcceptHeaderOpenApiResource.class);
          
 

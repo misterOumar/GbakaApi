@@ -1,12 +1,15 @@
 package fr.istic.taa.jaxrs.dto;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.time.LocalDateTime;
 
 public class TripDto {
     private Long id;
     private String departureCity;
     private String arrivalCity;
-    private LocalDateTime departureTime;
+    private String departureTime;
+    private String estimatedArrivalTime;
     private double pricePerSeat;
     private int availableSeats;
     private String driverFullName;
@@ -36,11 +39,11 @@ public class TripDto {
         this.arrivalCity = arrivalCity;
     }
 
-    public LocalDateTime getDepartureTime() {
+    public String getDepartureTime() {
         return departureTime;
     }
 
-    public void setDepartureTime(LocalDateTime departureTime) {
+    public void setDepartureTime(String departureTime) {
         this.departureTime = departureTime;
     }
 
@@ -74,5 +77,13 @@ public class TripDto {
 
     public void setDriverRating(double driverRating) {
         this.driverRating = driverRating;
+    }
+
+    public String getEstimatedArrivalTime() {
+        return estimatedArrivalTime;
+    }
+
+    public void setEstimatedArrivalTime(String estimatedArrivalTime) {
+        this.estimatedArrivalTime = estimatedArrivalTime;
     }
 }

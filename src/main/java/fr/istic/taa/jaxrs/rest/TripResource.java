@@ -170,7 +170,8 @@ public class TripResource {
         dto.setId(trip.getId());
         dto.setDepartureCity(trip.getDepartureCity());
         dto.setArrivalCity(trip.getArrivalCity());
-        dto.setDepartureTime(trip.getDepartureTime());
+        dto.setDepartureTime(trip.getDepartureTime() != null ?
+                trip.getDepartureTime().toString() : null);
         dto.setPricePerSeat(trip.getPricePerSeat());
         dto.setAvailableSeats(trip.getAvailableSeats());
         if (trip.getDriver() != null) {

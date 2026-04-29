@@ -42,6 +42,7 @@ public class TestApplication extends Application {
         clazzes.add(TripResource.class);
         clazzes.add(SwaggerResource.class);
 //        clazzes.add(AcceptHeaderOpenApiResource.class);
+        clazzes.add(CorsFilter.class);
          
 
         return clazzes;

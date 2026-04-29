@@ -17,6 +17,10 @@ public class RestServer {
     public static void main( String[] args ) {
 
         EntityManagerHelper.getEntityManager();
+
+        // Insertion des données fictives au démarrage
+        DataSeeder.main(new String[]{});
+
         UndertowJaxrsServer ut = new UndertowJaxrsServer();
 
         TestApplication ta = new TestApplication();

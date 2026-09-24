@@ -1,0 +1,26 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "labels": ["dependencies"],
+  "schedule": ["every weekend"],
+  "prConcurrentLimit": 5,
+  "packageRules": [
+    {
+      "matchManagers": ["maven"],
+      "groupName": "resteasy",
+      "matchPackageNames": ["org.jboss.resteasy{/,}**"],
+      "automerge": false
+    },
+    {
+      "matchManagers": ["maven"],
+      "groupName": "swagger",
+      "matchPackageNames": ["io.swagger.core.v3{/,}**"],
+      "automerge": false
+    },
+    {
+      "matchManagers": ["maven"],
+      "matchPackageNames": ["junit:junit"],
+      "automerge": true
+    }
+  ]
+}
